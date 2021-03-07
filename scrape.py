@@ -73,15 +73,3 @@ def run(start_year=None, years_ago=0):
         else:
             print(f"{start_year} not finshed")
         start_year-=1
-
-if __name__ == "__main__":
-    try:
-        start = int(sys.argv[1])
-    except:
-        start = None
-    try:
-        count = int(sys.argv[2])
-    except:
-        count = 0
-
-    run(start_year=start, years_ago=count)

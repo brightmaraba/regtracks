@@ -1,1 +1,1 @@
-uvicorn server2:app --port 5050
+uvicorn server2:app --port 5550
