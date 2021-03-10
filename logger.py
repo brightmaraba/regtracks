@@ -9,4 +9,4 @@ def trigger_log_saver():
     filename = f"{datetime.datetime.now()}.txt"
     filepath = os.path.join(log_dir, filename)
     with open(filepath, 'w+') as f:
-        f.write(f"File {filename} logged at {datetime.date.now()}")
+        f.write(f"Logged at {datetime.datetime.now()}")
